@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: black;
+    background-color: #041f4f;
 }
 
 #clock-container{
@@ -48,7 +48,7 @@ body{
 
 #digital-container{
     position: relative;
-    width:13%;
+    width:15%;
     height:auto;
     margin: auto;
     margin-top: 5%;
@@ -81,7 +81,7 @@ body{
     margin-left:15px;
     position: absolute;
     top:-20%;
-    left:10%;
+    left:18%;
 }
 #dMinute::after{
     content: ":";

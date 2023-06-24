@@ -23,7 +23,7 @@ setInterval(function(){
      minuteHand.style.transform = `rotate(${mrotation}deg )`;
      secondsHand.style.transform = `rotate(${srotation}deg )`;
 
-     dHour.innerText = (hours - 12);
+     dHour.innerText = (hours <= 12 ? hours : (hours - 12));
      dMinute.innerText = minutes;
      dSecond.innerText = seconds;
    
